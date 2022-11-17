@@ -1,0 +1,159 @@
+/***********Common CSS **************/
+html{ height: 100%; overflow-x: hidden;}
+body{font-family: 'Poppins', sans-serif;
+ overflow-x: hidden; }
+.heading{ font-size: 36px; font-weight: 700; color: #484848;}
+h1.heading{ font-weight: 500; line-height: 60px;}
+h2.heading{ font-weight: 500; line-height: 60px;}
+.heading > span{ color: #3086F0; font-weight: 600; font-size: 36px;}
+h2.heading > span{font-weight: 700;}
+h5{ font-size: 24px; color: #484848; font-weight: 700;}
+h6{ font-size: 24px; color: #484848; font-weight: 500;}
+p{ font-size: 18px; font-weight: 400; color: #727272; line-height: 36px;}
+span{ font-size: 14px; font-weight: 500; color: #484848;}
+a:hover, a:active{ text-decoration: none;}
+.life-btn{ background-color: #3086F0; color: #fff; font-size: 14px;
+ height: 45px; border-radius: 4px;
+-webkit-box-shadow: 0 3px 10px 0 rgba(48,134,240,10);
+box-shadow: 0 3px 10px 0 rgba(48,134,240,10); min-width: 140px;
+ line-height: 25px; padding: 10px 15px;
+}
+.life-btn:hover{ color: #FFF;}
+.life-btn-2{ background-color: #E9F2FD;  box-shadow: none;}
+.sec{ padding: 70px 0;}
+.bg-theme{ background-color: #3086F0 !important;}
+.mobile-menu{ display: none;}
+
+/***********Icon CSS **************/
+.icn{ width: 24px; height: 24px; background-repeat: no-repeat; background-position: center; display: inline-block;}
+.icn-arrow{ background-image: url(../images/arrow.svg);}
+.icn-send{ background-image: url(../images/send.svg);}
+.icn-phone{ background-image: url(../images/phone.svg);}
+.icn-email{ background-image: url(../images/mail.svg);}
+.icn-whatsapp{ background-image: url(../images/whatsapp.svg);}
+.icn-facebook{ background-image: url(../images/facebook.svg);}
+.icn-instagram{ background-image: url(../images/instagram.svg);}
+.icn-youtube{ background-image: url(../images/youtube.svg);}
+.icn-linkedin{ background-image: url(../images/linkedin.svg);}
+.icn-twitter{ background-image: url(../images/twitter.svg);}
+.icn-user{ background-image: url(../images/user.svg);}
+
+/***********Header CSS **************/
+header ul li a{ color: #484848; font-weight: 500; font-size: 14px;}
+header ul li{ margin-left: 30px; line-height: 30px;}
+header ul li.app-btn{ margin-left: 70px;}
+header ul li a{ display: block;}
+header ul li a:hover{ color: #3086F0;}
+
+/***********Main Sec **************/
+.main-sec{ height: 828px;}
+.main-vector{position: relative;}
+.main-vector:before{ position: absolute; right: -330px; top: 10px;
+content: "";
+ border-radius: 50px; -webkit-box-shadow: 10px 10px 30px 10px rgba(48,134,240,0.2);
+box-shadow: 10px 10px 30px 10px rgba(48,134,240,0.2);
+ width: 753px; height: 683px;
+background: #3086f0;
+background: -moz-linear-gradient(-45deg, #3086f0 0%, #6aa7f2 100%);
+background: -webkit-linear-gradient(-45deg, #3086f0 0%,#6aa7f2 100%);
+background: linear-gradient(135deg, #3086f0 0%,#6aa7f2 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3086f0', endColorstr='#6aa7f2',GradientType=1 ); 
+-moz-transform: rotate(-167deg);
+-webkit-transform: rotate(-167deg);
+-o-transform: rotate(-167deg);
+-ms-transform: rotate(-167deg);
+transform: rotate(-167deg);  display: block; z-index: -1;
+}
+
+/***********Service Sec**************/
+.service-sec ul li a img{ width: 50px; height: 50px;}
+.service-sec ul li{ background-color: #F8FAFE; border-radius: 12px;
+ text-align: center; padding: 18px 10px; margin: 15px;
+width: -moz-calc(16.66% - 30px);
+width: -webkit-calc(16.66% - 30px);
+width: -o-calc(16.66% - 30px);
+width: calc(16.66% - 30px);}
+.service-sec ul li:hover{ -webkit-box-shadow: 10px 10px 30px 10px rgba(48,134,240,0.1);
+box-shadow: 10px 10px 30px 10px rgba(48,134,240,0.1);}
+.service-sec ul li span{ display: block; margin-top: 10px;}
+.service-sec ul li.bg-theme span{ color: #FFF !important;}
+.service-sec ul li.bg-theme i{ bottom: -2px; right: -20px;}
+
+/***********Benefits Sec**************/
+.benefits-sec h2.heading:before{ content: ""; position: absolute; left: 25px; top: 0;
+ background-color: #F4F9FF; width: 200px; height: 200px; border-radius: 30px;
+ -moz-transform: rotate(-34deg);
+-webkit-transform: rotate(-34deg);
+-o-transform: rotate(-34deg);
+-ms-transform: rotate(-34deg);
+transform: rotate(-34deg); 
+z-index: -1;
+}    
+    
+}
+.benefits-bx h5{ margin: 20px 0 15px;}
+.benefits-bx img{ width: 100px; height: 100px; margin-bottom: 15px;}
+
+/***********Download Sec**************/
+.download-info h2{ font-weight: 700;}
+.download-info{ padding-left: 150px;}
+.left-img-bx:before{position: absolute; left: -454px; top: 66px;
+content: "";
+ border-radius: 50px; -webkit-box-shadow: 10px 10px 30px 10px rgba(48,134,240,0.2);
+box-shadow: 10px 10px 30px 10px rgba(48,134,240,0.2);
+ width: 753px; height: 559px;
+background: #3086f0;
+background: -moz-linear-gradient(-45deg, #3086f0 0%, #6aa7f2 100%);
+background: -webkit-linear-gradient(-45deg, #3086f0 0%,#6aa7f2 100%);
+background: linear-gradient(135deg, #3086f0 0%,#6aa7f2 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3086f0', endColorstr='#6aa7f2',GradientType=1 ); 
+-moz-transform: rotate(-167deg);
+-webkit-transform: rotate(-167deg);
+-o-transform: rotate(-167deg);
+-ms-transform: rotate(-167deg);
+transform: rotate(-167deg);  display: block; z-index: -1;}
+
+/***********FAQ Sec**************/
+.faq-bx .heading-bx{ max-width: 60%; margin-bottom: 70px;}
+.faq-bx h2{ font-weight: 700;}
+.faq-bx .btn.btn-link{ width: 100%; display: block; padding: 20px 0;}
+.faq-bx .btn.btn-link:hover, .faq-bx .btn.btn-link:active, .faq-bx .btn.btn-link:focus{ text-decoration: none;}
+.faq-bx .card-body p{ text-align: center;}
+.faq-bx .card{ border: none;}
+.faq-bx .card-header{ border-bottom: 0; border-top: 1px solid #C0DAFB;
+ background-color:transparent;}
+.faq-bx .card-header h6{ margin-bottom: 0;}
+
+/***********Footer**************/
+.footer-sec{ background-color:#EAEDF5;}
+.footer-sec .footer-inside form label{ font-size: 18px; font-weight: 500; color: #484848; margin-bottom: 20px;}
+.footer-sec .footer-inside form .form-control{ height: 65px; border-radius: 8px; border: none; padding-right: 70px;}
+.footer-sec .footer-inside form .btn{ width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    min-width: 40px;
+    padding: 12px 12px 12px 15px;
+    text-align: center;
+    right: 10px;
+    bottom: 7px;}
+.footer-sec .footer-inside form .form-control::-webkit-input-placeholder {
+  color: #ACB8C8;
+}
+.footer-sec .footer-inside form .form-control::-moz-placeholder {
+  color: #ACB8C8;
+}
+.footer-sec .footer-inside form .form-control:-ms-input-placeholder { 
+  color: #ACB8C8;
+}
+.footer-sec .footer-inside form .form-control:-moz-placeholder {
+  color: #ACB8C8;
+}
+.footer-sec .footer-inside ul li a{ color: #484848; font-size: 14px;}
+.footer-sec .footer-inside ul li a i{ vertical-align: middle; margin-right: 5px;}
+.power-bx{ font-size: 12px; color: #484848;}
+.link-list li{ margin-bottom: 30px;}
+.link-list li a{ font-size: 12px; color: #484848;}
+.link-list li a:hover{ color:#3086F0 !important;}
+.footer-sec h6{ font-size: 18px;}
+
+
